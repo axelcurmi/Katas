@@ -78,7 +78,7 @@ void ListSolvers()
     foreach (var solver in solvers)
     {
         var name = solver.Namespace!.Substring(
-            solver.Namespace!.IndexOf(".", StringComparison.Ordinal) + 1);
+            solver.Namespace!.IndexOf('.') + 1);
         Console.WriteLine($"- {name}");
     }
 }
