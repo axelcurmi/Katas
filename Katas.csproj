@@ -11,6 +11,13 @@
     <None Update="Y2023\Day01\data.in">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="AdventOfCode\Y2023\Day01\data.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AdventOfCode\" />
   </ItemGroup>
 
 </Project>
